@@ -18,6 +18,12 @@
     font-weight: 700;
 }
 
+.button:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    transition: ease-out 0.3s;
+    background-color: rgb(255, 72, 0);
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins' , sans-serif;
 }
@@ -58,6 +64,7 @@ body{
     background-color: white;
 }
 
+
 .hero-content{
     justify-content: space-between;
     align-items: center;
@@ -89,6 +96,7 @@ body{
     background-color: hsl(322, 100%, 66%);
     box-shadow: 0 2px 5px grey;
 }
+
 
 .hero-content .content-img{
     flex-basis: 50%;
